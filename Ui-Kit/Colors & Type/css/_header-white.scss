@@ -1,0 +1,25 @@
+.header {
+  max-width: 1392px;
+  height: 145px;
+  color: rgba(31, 32, 65, 0.25);
+  background-color: blue($color: #000000);
+  border: 2px solid black;
+}
+.header-logo {
+  background-image: url("../img/header-logo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 48px;
+  height: 48px;
+  h2 {
+    opacity: 0;
+  }
+  p {
+    opacity: 0;
+  }
+}
+
+
