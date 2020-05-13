@@ -87,7 +87,6 @@ select {
   height: 145px;
   color: rgba(31, 32, 65, 0.25);
   background-color: 0;
-  border: 2px solid black;
 }
 
 .header-logo {
@@ -107,5 +106,83 @@ select {
 
 .header-logo p {
   opacity: 0;
+}
+
+.colors {
+  padding-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block {
+  width: 70px;
+  height: 70px;
+  background-color: #1F2041;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.block-1 {
+  background: #1F2041;
+  border-radius: 6px;
+}
+
+.block-2 {
+  background: rgba(31, 32, 65, 0.75);
+  border-radius: 6px;
+}
+
+.block-3 {
+  background: rgba(31, 32, 65, 0.5);
+  border-radius: 6px;
+}
+
+.block-4 {
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 6px;
+}
+
+.block-5 {
+  background: rgba(31, 32, 65, 0.05);
+  border-radius: 6px;
+}
+
+.block-6 {
+  background: #BC9CFF;
+  border-radius: 6px;
+}
+
+.block-7 {
+  background: #6FCF97;
+  border-radius: 6px;
+}
+
+.names {
+  padding-top: 7px;
+}
+
+.names .color-name {
+  margin-bottom: 33px;
+  height: 57px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 29px;
 }
 /*# sourceMappingURL=style.css.map */
