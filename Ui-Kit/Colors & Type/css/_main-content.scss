@@ -1,7 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .colors {
     padding-left: 150px;
     display: flex;
     flex-direction: row;
+    width: 500px;
 }
 
 .blocks {
@@ -65,13 +72,121 @@
         word-wrap: break-word;
         font-size: 19px;
         line-height: 29px;
+        h3 {
+            font-family: 'Quicksand', sans-serif;
+            font-style: normal;
+            word-wrap: break-word;
+            font-size: 19px;
+            line-height: 29px;
+        }
     } 
 }
 
+.titles {
+    margin-right: -55px;
+    width: 557px;
+}
 
+.title-block{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;  
+}
 
+.h1-title-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;   
+    text-align: right;
+    color: rgba(31, 32, 65, 0.25);
+    width: 37px;
+}
 
+.h2-title-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.25);
+    width: 37px;
+}
 
+.h3-title-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.25);
+    width: 37px;
+}
 
+.body-title-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.25);
+    width: 37px;
+}
 
+.h1-title-content {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1F2041;
+    width: 340px;
+    margin-left: 30px;
+    height: 60px;
+    padding: 0;
+    font-stretch: ultra-condensed;
+    
+}
+
+.h2-title-content {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #1F2041;
+    width: 340px;
+    margin-left: 30px;
+    height: 48px;
+}
+
+.h3-title-content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+    width: 340px;
+    margin-left: 30px;
+    height: 15px;
+}
+
+.body-title-content {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    width: 301px;
+    margin-left: 30px;
+    height: 48px;
+}
 
