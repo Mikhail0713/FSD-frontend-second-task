@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet">
     <title>Form Elements</title>
   </head>
   <body>
@@ -15,22 +16,109 @@
     </div>
     <div class="top-container">
       <div class="top-left-container">
-        <div class="text-field-default"></div>
-        <div class="text-field-focus"></div>
-        <div class="dropdown-guests"></div>
-        <div class="text-field-date"></div>
-        <div class="dropdown-date">
-          <div class="dropdown-date-unknown"></div>
-          <div class="dropdown-date-checked"></div>
+        <div class="text-field-default">
+          <div class="type-of-element">
+            <div class="name-of-element">Text Field</div>
+            <div class="default-element">Default</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <input type="text" name="Email" id="Email" placeholder="Email">
+          </form>
         </div>
-        <div class="dropdown-filter-date"></div>
-        <div class="text-field-subscription"></div>
+        <div class="text-field-focus">
+          <div class="type-of-element">
+            <div class="name-of-element">Text Field</div>
+            <div class="default-element">Hover / Focus</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <input type="text" name="Email" id="Email" placeholder="This is pretty awesome">
+          </form>
+        </div>
+        <div class="dropdown-guests">
+          <div class="type-of-element">
+            <div class="name-of-element">Text Field</div>
+            <div class="default-element">Hover / Focus</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <select name="guests" id="guests">
+              <option>Сколько гостей</option>
+            </select>
+          </form>
+        </div>
+        <div class="text-field-date">
+          <div class="type-of-element">
+            <div class="name-of-element">Masked Text Field</div>
+            <div class="default-element">Default</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <input type="date" id="date" name="date">
+          </form>
+        </div>
+        <div class="dropdown-date">
+          <div class="dropdown-date-unknown">
+            <div class="type-of-element">
+              <div class="name-of-element">Date Dropdown</div>
+            </div>
+            <div class="text-form"></div>
+            <form action="your@email.com" method="post">
+              <input type="date" id="date" name="date">
+            </form>
+          </div>
+          <div class="dropdown-date-checked">
+            <div class="type-of-element">
+              <div class="name-of-element">Date Dropdown</div>
+            </div>
+            <div class="text-form"></div>
+            <form action="your@email.com" method="post">
+              <input type="date" id="date" name="date" value="2019-08-19">
+            </form>
+          </div>
+        </div>
+        <div class="dropdown-filter-date">
+          <div class="type-of-element">
+            <div class="name-of-element">filter date dropdown</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <select name="date-filter" id="date-filter">
+              <option>19 авг - 23 авг</option>
+            </select>
+          </form>
+        </div>
+        <div class="text-field-subscription">
+          <div class="type-of-element">
+            <div class="name-of-element">subscription text field</div>
+          </div>
+          <div class="text-form"></div>
+          <form action="your@email.com" method="post">
+            <input type="text" name="Email" id="Email" placeholder="Email">
+          </form>
+        </div>
       </div>
       <div class="top-middle-container">
         <div class="checkbox-button">
-          <div class="smoke"></div>
-          <div class="with-pet"></div>
-          <div class="with-guest"></div>
+          <div class="type-of-element">
+            <div class="name-of-element">Checkbox Buttons</div>
+          </div>
+          <div class="smoke">
+            <label class="check">
+              <input class="check-input" type="checkbox"><span>Можно курить  </span>
+            </label>
+          </div>
+          <div class="with-pet">
+            <label>
+              <input class="check-input" type="checkbox" checked><span>Можно с питомцами</span>
+            </label>
+          </div>
+          <div class="with-guest">
+            <label>
+              <input class="check-input" type="checkbox" checked><span>Можно пригласить гостей <br> (до 10 человек)</span>
+            </label>
+          </div>
         </div>
         <div class="radio-button">
           <div class="men"></div>
@@ -90,7 +178,25 @@
           <div class="help-for-invalid"></div>
         </div>
       </div>
-      <div class="middle-right-container"></div>
+      <div class="middle-right-container">
+        <div class="dropdown-3-guest">
+          <div class="bullet-list">
+            <div class="without-pets"></div>
+            <div class="without-party"></div>
+            <div class="time-of-arival"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <div class="left-bottom-container">
+        <div class="comfortable"></div>
+        <div class="convenience"></div>
+      </div>
+      <div class="right-bottom-container">
+        <div class="profile"></div>
+        <div class="review"></div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,19 +1,76 @@
 .top-container
     .top-left-container
         .text-field-default
+            .type-of-element
+                .name-of-element Text Field
+                .default-element Default
+            .text-form
+            form(action="your@email.com" method='post')
+                input(type="text" name="Email" id="Email" placeholder="Email")
         .text-field-focus
+            .type-of-element
+                .name-of-element Text Field
+                .default-element Hover / Focus
+            .text-form
+            form(action="your@email.com" method='post')
+                input(type="text" name="Email" id="Email" placeholder="This is pretty awesome")
         .dropdown-guests
+            .type-of-element
+                .name-of-element Text Field
+                .default-element Hover / Focus
+            .text-form
+            form(action="your@email.com" method='post')
+                select(name="guests" id='guests')
+                    option Сколько гостей
         .text-field-date
+            .type-of-element
+                .name-of-element Masked Text Field
+                .default-element Default
+            .text-form
+            form(action="your@email.com" method='post')
+                input(type="date" id="date" name="date")
         .dropdown-date
             .dropdown-date-unknown
+                .type-of-element
+                    .name-of-element Date Dropdown
+                .text-form
+                form(action="your@email.com" method='post')
+                    input(type="date" id="date" name="date")
             .dropdown-date-checked
+                .type-of-element
+                    .name-of-element Date Dropdown
+                .text-form
+                form(action="your@email.com" method='post')
+                    input(type="date" id="date" name="date" value="2019-08-19")
         .dropdown-filter-date
+            .type-of-element
+                .name-of-element filter date dropdown
+            .text-form
+            form(action="your@email.com" method='post')
+                select(name="date-filter" id='date-filter')
+                    option 19 авг - 23 авг
         .text-field-subscription
+            .type-of-element
+                .name-of-element subscription text field
+            .text-form
+            form(action="your@email.com" method='post')
+                input(type="text" name="Email" id="Email" placeholder="Email")
     .top-middle-container
         .checkbox-button
+            .type-of-element
+                .name-of-element Checkbox Buttons
             .smoke
+                label.check
+                    input(type="checkbox" class="check-input")
+                    span Можно курить  
             .with-pet
+                label
+                    input(type="checkbox" class="check-input" checked)
+                    span Можно с питомцами
             .with-guest
+                label
+                    input(type="checkbox" class="check-input" checked)
+                    span Можно пригласить гостей <br> (до 10 человек)
         .radio-button
             .men
             .women
@@ -58,3 +115,15 @@
             .whide-place
             .help-for-invalid
     .middle-right-container
+        .dropdown-3-guest
+            .bullet-list
+                .without-pets
+                .without-party
+                .time-of-arival
+.bottom-container
+    .left-bottom-container
+        .comfortable
+        .convenience
+    .right-bottom-container
+        .profile
+        .review

@@ -107,4 +107,109 @@ select {
 .header-logo p {
   opacity: 0;
 }
+
+.top-container {
+  margin-left: 141px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.name-of-element {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  margin-bottom: 5px;
+}
+
+.top-left-container {
+  width: 320px;
+}
+
+.type-of-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Email {
+  width: 320px;
+  margin-bottom: 20px;
+  height: 44px;
+}
+
+#guests {
+  width: 320px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+
+.text-field-date #date {
+  width: 320px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+
+.dropdown-date-checked {
+  width: 150px;
+}
+
+.dropdown-date-checked input {
+  width: 150px;
+  height: 44px;
+}
+
+.dropdown-date-unknown {
+  width: 150px;
+}
+
+.dropdown-date-unknown input {
+  width: 150px;
+  height: 44px;
+}
+
+.dropdown-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#date-filter {
+  width: 266px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+
+.text-field-subscription #Email {
+  width: 266px;
+  margin-bottom: 20px;
+  height: 44px;
+}
+
+.top-middle-container {
+  margin-left: 126px;
+}
 /*# sourceMappingURL=style.css.map */
